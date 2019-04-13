@@ -1,0 +1,7 @@
+<div>
+    {{#each users}}
+    <div><strong>name: </strong>{{this.name}}</div>
+    <div><strong>age: </strong>{{this.age}}</div>
+    <a href="users/edit/{{this.id}}">Edit User</a>
+    {{/each}}
+</div>
